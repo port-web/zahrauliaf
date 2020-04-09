@@ -87,19 +87,11 @@
       <!-- About Me -->
       <section id="about" class="about scrollspy">
         <div class="container">
-
-          <!-- Foto Ku -->
-          <br>
-          <br>
           <div class="row m12 s12 center">
             
 
-            
-
           </div>
-
           <br>
-
           <!-- Div About Me -->
           <div class="row s12">
             <h2 class="center light grey-text text-darken-3">Zahra Auliani Fauziatunnisa</h2>
@@ -107,16 +99,8 @@
             
             <div class="col m6 s12 center">
               <img src="img/img1.png" class="center" width="400">
-
             <br>
             <br>
-
-            <!-- Tombol CV -->
-            <a href="https://drive.google.com/file/d/18KMaDIou1m17y-1pcHhRY2rMBt09gqAF/view" 
-            class="waves-effect waves-light btn-large cyan accent-4" target="blank">
-              <i class="material-icons left">archive</i>curriculum vitae (EN)
-            </a>
-
             </div>
             
             <div class="col m6 s12">
@@ -131,10 +115,107 @@
               write a poem (sometimes) because i prefer express my feeling through my 
               written. And yes, through this platform, i’m going to share my experience, 
               my perspective about some topics, and my daily activities.</p>
+
+              <br>
+              <!-- Tombol CV -->
+              <a href="https://drive.google.com/file/d/18KMaDIou1m17y-1pcHhRY2rMBt09gqAF/view" 
+                class="waves-effect waves-light btn-large cyan darken-3" target="blank">
+                <i class="material-icons left">archive</i>curriculum vitae (EN)
+              </a>
+
             </div>
           </div>
         </div>
       </section>
+
+      <section id="blog" class="blog parallax-container">
+        <div class="parallax s12">
+          <img src="img/slider/2.png" class="responsive-img">
+        </div>
+
+
+        <div class="container">
+          <br><br>
+          <!-- Baris ke 1 Postingan -->
+          <div class="row">
+            
+            <div class="col s12 m4">
+              <!-- Postingan 1 -->
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/post/post1.jpeg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://zahrauliafsthought.wordpress.com/2020/04/07/babak-baru-menjadi-mahasiswa/" target="blank">
+                    Read More</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">close</i></span>
+                  <p>
+                    “Para mahasiswa merupakan suatu golongan yang boleh dikatakan baru di Indonesia, 
+                    tetapi dalam sejarah perkembangan bangsa, banyak sekali hal yang terjadi akibat 
+                    kegiatan dan tindakan mereka.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Postingan 2 -->
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/post/post1.jpeg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://zahrauliafsthought.wordpress.com/2020/04/07/babak-baru-menjadi-mahasiswa/" target="blank">
+                    Read More</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">close</i></span>
+                  <p>
+                    “Para mahasiswa merupakan suatu golongan yang boleh dikatakan baru di Indonesia, 
+                    tetapi dalam sejarah perkembangan bangsa, banyak sekali hal yang terjadi akibat 
+                    kegiatan dan tindakan mereka.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Postingan 3 -->
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/post/post1.jpeg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://zahrauliafsthought.wordpress.com/2020/04/07/babak-baru-menjadi-mahasiswa/" target="blank">
+                    Read More</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Babak Baru : Menjadi Mahasiswa<i class="material-icons right">close</i></span>
+                  <p>
+                    “Para mahasiswa merupakan suatu golongan yang boleh dikatakan baru di Indonesia, 
+                    tetapi dalam sejarah perkembangan bangsa, banyak sekali hal yang terjadi akibat 
+                    kegiatan dan tindakan mereka.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          
+
+
+        </div>
+      </section>
+
+
+      
 
 
 
@@ -161,6 +242,10 @@
           interval: 3000
         });
       
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+        scrollOffset: 50
+        });
       </script>
 
 </body>
